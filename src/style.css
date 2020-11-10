@@ -110,7 +110,18 @@ body {
     top: -20px;
     z-index: 1;
 }
-
+.mouth .up::before {
+    content: '';
+    display: block;
+    width: 93px;
+    height: 5px;
+    position: absolute;
+    bottom: -16px;
+    background: #ffe600;
+    transform: rotate(-15deg);
+    z-index: 15;
+    margin-left: -2px;
+}
 .mouth .up .lip {
     border: 3px solid black;
     height: 30px;
